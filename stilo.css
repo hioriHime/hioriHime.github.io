@@ -1,0 +1,51 @@
+
+/* Imágenes de fondo y base */
+body {
+  background-image: url('Imagenes/Gardens.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contenedor-info {
+  position: relative;
+  display: inline-block;
+}
+
+.interactiva {
+  width: 150px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.info-box {
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.info-box img {
+  width: 200px;
+  height: auto;
+  right: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.info-zen {
+  top: 300px;
+  left: 160px;
+}
+
+.info-buda{
+  top: 80px;
+  left: 880px;
+}
