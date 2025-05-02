@@ -13,7 +13,7 @@ body {
   align-items: center;
 }
 
-/* Contenedor general para los elementos */
+/* Contenedor general */
 .contenedor-info {
   display: flex;
   flex-direction: column;
@@ -30,15 +30,4 @@ body {
   cursor: pointer;
   border: 2px solid #ccc;
   border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-/* Caja de información */
-.info-box {
-  display: none;
-  background: #ffffffdd;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  z-in
+  margin-bot
