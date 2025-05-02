@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardín Zen Interactivo</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+
+
+  <div class="contenedor-info">
+    <img src="Imagenes/bonsai.png" alt="Elemento del jardín" class="interactiva" onclick="mostrarInfo(this)" style="top: 80px; left: 120px;">
+    <div class="info-box" style="top: 80px; left: 300px;">
+      <img src="Imagenes/info.gif" alt="Información">
+    </div>
+  </div>
+  
+  <!-- Imagen 2: Zen -->
+  <div class="contenedor-info">
+    <img src="Imagenes/Zen.png" class="interactiva" onclick="mostrarInfo(this)" style="top: 300px; left: 410px;">
+    <div class="info-box info-zen">
+      <img src="Imagenes/info2.gif">
+    </div>
+  </div>
+  
+  
+  <!-- Imagen 3: Buda -->
+  <div class="contenedor-info">
+    <img src="Imagenes/buda.png" alt="Elemento 2" class="interactiva" onclick="mostrarInfo(this)" style="top: 88px; left: 700px;">
+    <div class="info-box info-buda">
+      <img src="Imagenes/info3.gif" alt="Info 2">
+    </div>
+  </div>
+  
+
+
+
+<audio id="audioZen" src="Naturaleza.mp3" autoplay loop></audio>
+<button id="toggleSonido" aria-label="Control de sonido">⏸️</button>
+
+
+<script>
+function tocarSonido() {
+  document.getElementById('audioZen').play();
+}
+</script>
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
